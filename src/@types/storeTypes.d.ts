@@ -1,3 +1,4 @@
+import React, {ReactComponentElement} from "react";
 declare interface StroreState {
   userInfo: any
 }

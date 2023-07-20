@@ -1,7 +1,7 @@
 import React, {ReactComponentElement} from "react"
 import { Redirect } from 'react-router-dom'
-interface Props {
-  children: ReactComponentElement<any>,
+import {ComponentProps} from "../@types/componentTypes";
+interface Props extends ComponentProps {
   // 路由校验的字段
   verify: any,
   // 路由重定向url
