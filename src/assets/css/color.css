@@ -1,0 +1,14 @@
+:root {
+  /*页面背景色*/
+  --global-page-bg-color: #DADADAFF;
+  /*默认文字颜色*/
+  --global-font: #211F1FFF;
+  /*页面背景图*/
+  --global-page-bg-url: url('../images/103357150_p0.jpg');
+  /* 页面蒙版层颜色 */
+  --global-view-color: rgba(255, 255, 255, 0.4);
+  /*卡片组件背景色*/
+  --card-bg-color: rgba(255, 255, 255, 0.4);
+  /*卡片组件边框色*/
+  --card-border-color: #f0f0f0;
+}

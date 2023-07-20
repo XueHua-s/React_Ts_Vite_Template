@@ -1,0 +1,16 @@
+.main-layout[data-mainlayout] {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow-y: auto;
+  header {
+    height: 20vh;
+  }
+  main {
+    flex: 1;
+  }
+  footer {
+    height: 20vh;
+  }
+}
+
